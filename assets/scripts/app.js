@@ -27,7 +27,7 @@ let books = [
 //
 const getBooks = async () => {
   try {
-    const res = await fetch("new_dbFor372.json", {
+    const res = await fetch("./new_dbFor372.json", {
       method: "GET",
     });
     console.log(res);
